@@ -1,0 +1,7 @@
+model_list:
+  - model_name: sbm-call-agent
+    litellm_params:
+      model: watsonx/deployment/01a09ac6-1cde-7043-9afe-1275d0ddc0d0
+      space_id: os.environ/WATSONX_DEPLOYMENT_SPACE_ID
+general_settings:
+  master_key: sk-sbm-hamsa-2026
